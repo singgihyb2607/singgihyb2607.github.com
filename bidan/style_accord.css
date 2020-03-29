@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+ body, input{ 
+    font-family: Calibri, Arial; }
+#accordion {
+	text-align:left;
+    list-style: none;
+    padding: 0 0 0 0;
+    width: 180px;
+}
+#accordion li{
+	height:28px;
+	display: block;
+	background:url(images/acordion.png);
+	color:#333;
+    font-weight: bold;
+    margin: 1px;
+    cursor: pointer;
+    padding: 5 5 5 7px;
+	padding-left:5px;
+    }
+#accordion ul {
+    list-style: none;
+    padding: 0 0 0 0;
+    display: none;
+}
+#accordion ul li{
+    font-weight: normal;
+    cursor: auto;
+    background-color:#08dce4;
+    padding: 0 0 0 7px;
+}
+#accordion a {
+    text-decoration: none;
+}
+#accordion a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+.admin {
+	background:url(adminweb/images/body-bg7.png);
+}
+.garis {
+	background:url(adminweb/images/zz.png) ;
+}
+.background {
+	background:url(adminweb/images/bgrepeat.png);
+}
+.back {
+	background:url(adminweb/images/nasty_fabric.png);
+}
+#table {
+	
+	border-radius : 8px;
+	border-top:4px solid #cfcfcf;
+	border-left:1px solid #cfcfcf;
+	border-right:4px solid #cfcfcf;
+	
+}
+#table2 {
+	
+	border-radius : 8px;
+	border-top:1px solid #cfcfcf;
+	border-left:1px solid #cfcfcf;
+	border-right:1px solid #cfcfcf;
+	
+}
+.opacity {
+	background:rgba(255,255,255,0.5);
+}
+
+
+/*---------------menu---------------*/
+
+.menu {
+	background:url(adminweb/images/zz.png);
+    height: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+	width:100px;
+}
+
+
+.menu li a {
+	color:#FFF;
+    display: block;
+    font: 12px arial, verdana, sans-serif;
+    font-weight: bold;
+    padding: 9px 20px;
+    text-decoration: none;
+	left:-1;
+}
+.menu li:hover {
+	 background:rgba(8,220,228,0.9); 
+	 position: relative;
+	 height:25px; }
+	 
+.menu li:hover a { text-decoration: underline; }
+.menu li:hover ul {
+    background-color: #3f4a54;
+    border: 1px solid grey;
+    left: 0px;
+    padding: 3px;
+    top: 30px;
+    width: 160px;
+}
+.menu li:hover ul li { border: none; height: 18px; }
+.menu li:hover ul li a {
+    background-color: #778899;
+    border: 1px solid transparent;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 158px;
+    padding: 3px;
+}
+.menu li:hover ul li a:hover {
+    background:rgba(8,220,228,0.9);
+    border: solid 1px #444;
+    color: #000;
+    height: 18px;
+    padding: 3px;
+}
+.menu ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+    top: -9999px;
+}
